@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while [$LOVE>1];do
+	$BREATH=$BREATH*$BREATH;
+	$LOVE--;
+done;
+echo $BREATH
